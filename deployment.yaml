@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
 <<<<<<< HEAD
-      - name: myapp
+      - name: node-app
         image: paularinze/node-app:build-12
 =======
       - name: node-app
