@@ -15,10 +15,10 @@ spec:
       containers:
 <<<<<<< HEAD
       - name: node-app
-        image: paularinze/node-app:build-12
+        image: paularinze/node-app:build-9
 =======
       - name: node-app
-        image: paularinze/node-app:build-12
+        image: paularinze/node-app:build-9
 >>>>>>> 017c06c (Changed App name)
         ports:
         - containerPort: 80
