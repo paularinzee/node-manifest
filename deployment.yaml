@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: node-app-container
-        image: paularinze/weather-app:build-9
+        image: paularinze/weather-app:build-5
         ports:
         - containerPort: 80
