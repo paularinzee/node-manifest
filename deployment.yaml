@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: node-app-deployment
+  name: weather-deployment
   labels:
-    app: node-app
+    app: weather
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: node-app
+      app: weather
   template:
     metadata:
       labels:
-        app: node-app
+        app: weather
     spec:
       containers:
       - name: node-app-container
-        image: paularinze/node-app:build-9
+        image: paularinze/weather-app:build-9
         ports:
         - containerPort: 80
